@@ -3,34 +3,38 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="app">
-      <div className="desktop-window">
-        <div className="desktop-window__titlebar">
-          <span className="desktop-window__title">SAVE-POINT</span>
+    <>
+      <div className="ps2-stars" aria-hidden="true" />
 
-          <div className="desktop-window__controls">
-            <span className="ps-control ps-control--triangle">△</span>
-            <span className="ps-control ps-control--circle">○</span>
-            <span className="ps-control ps-control--cross">×</span>
-            <span className="ps-control ps-control--square">□</span>
-          </div>
-        </div>
-
-        <div className="desktop-window__body">
-          <header className="site-header">
-            <p className="site-kicker">日本語メディア学習アーカイブ</p>
-            <h1>SAVE-POINT</h1>
-            <p className="site-subtitle">
-              My Japanese media study archive.
-            </p>
-          </header>
-
-          <main>
-            <Home />
-          </main>
-        </div>
+      <div className="ps2-geometry" aria-hidden="true">
+        <span className="ps2-cube ps2-cube--one" />
+        <span className="ps2-cube ps2-cube--two" />
+        <span className="ps2-cube ps2-cube--three" />
+        <span className="ps2-cube ps2-cube--four" />
+        <span className="ps2-cube ps2-cube--five" />
+        <span className="ps2-cube ps2-cube--six" />
       </div>
-    </div>
+
+      <div className="ps2-screen">
+        <header className="ps2-topbar">
+          <div className="ps2-logo-dot" />
+          <span>save-point / Hidden_Archive</span>
+        </header>
+
+        <main>
+          <Home />
+        </main>
+
+        <footer className="ps2-footer">
+          <span>
+            <b className="button-circle">○</b> Open
+          </span>
+          <span>
+            <b className="button-cross">×</b> Back
+          </span>
+        </footer>
+      </div>
+    </>
   );
 }
 

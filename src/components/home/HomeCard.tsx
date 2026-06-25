@@ -14,22 +14,14 @@ export default function HomeCard({
   alt,
 }: HomeCardProps) {
   return (
-    <a href={href} className="win-card">
-      <div className="win-card__titlebar">
-        <span className="win-card__title">{title}</span>
-        <span className="win-card__dot">■</span>
-      </div>
-
+    <a href={href} className="ps2-card">
       {image && (
-        <img
-          src={image}
-          alt={alt ?? title}
-          className="win-card__image"
-        />
+        <img src={image} alt={alt ?? title} className="ps2-card__image" />
       )}
 
-      <div className="win-card__body">
-        <p className="win-card__description">{description}</p>
+      <div className="ps2-card__body">
+        <h3 className="ps2-card__title">{title}</h3>
+        <p className="ps2-card__description">{description}</p>
       </div>
     </a>
   );
