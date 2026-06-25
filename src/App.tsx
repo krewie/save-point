@@ -5,6 +5,7 @@ function App() {
   return (
     <>
       <div className="ps2-stars" aria-hidden="true" />
+      <div className="ps2-clouds" aria-hidden="true" />
 
       <div className="ps2-geometry" aria-hidden="true">
         <span className="ps2-cube ps2-cube--one" />
