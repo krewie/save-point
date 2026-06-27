@@ -70,7 +70,7 @@ export default function Home() {
         description="技術メモ、改造メモ、調べたこと"
       >
         <HomeCard
-          href="/psx"
+          href="/docs/psx-ode"
           image="/assets/img/psx.png"
           alt="PSX"
           title="PSX MOD"

@@ -42,7 +42,10 @@ body {
 
 .site-header h1,
 .ps2-topbar,
-.ps2-card__title {
+.ps2-card__title,
+.ps2-panel__title,
+.ps2-panel__eyebrow,
+.ps2-panel__button {
   font-family:
     "Emotion Engine",
     "Helvetica Neue",
@@ -90,4 +93,12 @@ body {
   margin: 0.35rem 0 0;
   color: var(--text-soft);
   text-shadow: 0 0 10px rgba(67, 216, 255, 0.18);
+}
+
+.ps2-panel__text p {
+  margin: 0;
+}
+
+.ps2-panel__text p + p {
+  margin-top: 1rem;
 }

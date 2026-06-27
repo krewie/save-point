@@ -1,4 +1,8 @@
+import { Routes, Route } from "react-router-dom";
+
 import Home from "./pages/Home";
+import PsxOde from "./pages/docs/PsxOde";
+
 import "./App.css";
 
 function App() {
@@ -23,7 +27,10 @@ function App() {
         </header>
 
         <main>
-          <Home />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/docs/psx-ode" element={<PsxOde />} />
+          </Routes>
         </main>
 
         <footer className="ps2-footer">
