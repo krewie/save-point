@@ -1,5 +1,6 @@
 import Home from "./pages/Home";
 import "./App.css";
+import "./styles/cards.css"
 
 function App() {
   return (
