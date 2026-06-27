@@ -1,29 +1,33 @@
 @font-face {
   font-family: "Emotion Engine";
-  src: url("./assets/emotion-engine-font/EmotionEngine-8ynA.ttf") format("truetype");
+  src: url("/fonts/emotion-engine/EmotionEngine-8ynA.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Emotion Engine";
-  src: url("./assets/emotion-engine-font/EmotionEngineBold-YGNL.ttf") format("truetype");
+  src: url("/fonts/emotion-engine/EmotionEngineBold-YGnL.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Emotion Engine";
-  src: url("./assets/emotion-engine-font/EmotionEngineItalic-Mr0v.ttf") format("truetype");
+  src: url("/fonts/emotion-engine/EmotionEngineItalic-MrOv.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Emotion Engine";
-  src: url("./assets/emotion-engine-font/EmotionEngineBoldItalic-raEK.ttf") format("truetype");
+  src: url("/fonts/emotion-engine/EmotionEngineBoldItalic-raEK.ttf") format("truetype");
   font-weight: 700;
   font-style: italic;
+  font-display: swap;
 }
 
 :root {
