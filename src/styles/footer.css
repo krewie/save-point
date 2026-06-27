@@ -1,0 +1,35 @@
+
+/* FOOTER */
+
+.ps2-footer {
+  position: fixed;
+  left: 50%;
+  bottom: 1.2rem;
+  transform: translateX(-50%);
+  z-index: var(--z-footer);
+
+  display: flex;
+  gap: 2rem;
+
+  padding: 0.35rem 0.8rem;
+
+  background: rgba(0, 3, 10, 0.28);
+  border-top: 1px solid rgba(67, 216, 255, 0.16);
+
+  color: rgba(235, 245, 255, 0.72);
+  font-size: 0.95rem;
+  text-shadow: 0 0 8px rgba(67, 216, 255, 0.22);
+
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.button-circle {
+  color: #f75f66;
+  text-shadow: 0 0 8px rgba(247, 95, 102, 0.8);
+}
+
+.button-cross {
+  color: #767ee1;
+  text-shadow: 0 0 8px rgba(118, 126, 225, 0.8);
+}

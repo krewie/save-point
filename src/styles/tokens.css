@@ -1,0 +1,32 @@
+:root {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+
+  color: #dff6ff;
+  background: #00030a;
+
+  --ps2-cyan: #43d8ff;
+  --ps2-blue: #246bff;
+  --ps2-yellow: #e4df64;
+  --ps2-red: #f75f66;
+  --ps2-purple: #767ee1;
+
+  --text-soft: #9edfff;
+  --text-muted: #6f9fca;
+
+  /*
+    LAYER ORDER
+
+    0  body base / body::after texture
+    10 stars
+    20 clouds / nebula / flares
+    30 floating geometry
+    40 main UI
+    50 fixed footer
+  */
+  --z-base-texture: 0;
+  --z-stars: 10;
+  --z-clouds: 20;
+  --z-geometry: 30;
+  --z-ui: 40;
+  --z-footer: 50;
+}

@@ -1,0 +1,33 @@
+/* MOBILE */
+
+@media (max-width: 900px) {
+  .home-section__grid {
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+  }
+
+  .site-header {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .ps2-screen {
+    width: min(100% - 1rem, 1180px);
+    padding-top: 1rem;
+  }
+
+  .home-section__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .site-header h1 {
+    font-size: 3rem;
+  }
+
+  .ps2-footer {
+    position: static;
+    transform: none;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+}
